@@ -1,46 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon-clone</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon-clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
 </head>
-
-<Header>
-    <div class="border">
-     <div class="navbar">
-
-        <div id="logo ">
-                     <img src="amazonlogo.jpeg" alt="logo" height=50px width=113px />
-        </div>
-
-        <div class="firstbox">
-         <div id="d"> <p> Deliver to </p> </div>
-         <div id="e"> <p>INDIA</p> </div>
-        </div>
-
-      <div class="navsearch">
-          <select id="select" name="All">
-            <option value="All" >All</option>
-          </select>
-         <input  id="searchbox" type="text" placeholder="Search Amazon ">
-         <input id="submit" type="submit" value="search" id="nvsearch">
+<body>
+  <header>
+<div class="navbar">
+  <div class="navlogo border">
+     <div class="logo">
+      <img src="amazon_logo.png" alt="logo" height=50px width=113px/>
+     </div>
+  </div>
+    <div class="secondbox border">
+      <p id="deliver">Deliver to</p>
+      <div class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <p id="india">India</p>
       </div>
-
-       <div class="hello">
-         <div id="hello"> Hello, sign in </div>
-         <div id="accounts"> <b>Accounts & Lists</b></div>
-        </div>
-       <div class="returns">
-         <div id="returns"> Returns </div>
-         <div id="Orders"> & Orders</div>
-       </div>
-        <div id="cart">cart</div> 
+    </div>
+    <div class="navsearch border">
+      <select name="All" class="options">
+        <option value="All">All</option>
+      </select>
+        <input type="text" placeholder="Search Amazon" class="searchbar">
+       <div class="searchglass">
+          <i class="fa-solid fa-magnifying-glass"></i>
+       </div> 
+    </div>
+    <div class="thirdbox border">
+      <p id="hello">Hello,sign in </p>
+      <p id="accounts">Accounts & Lists</p>
+    </div>
+     <div class="fourthbox border">
+       <p id="returns">Returns </p>
+       <p id="orders">& Orders</p>
+     </div>
+    <div class="fifthbox border">
+      <i class="fa-solid fa-cart-shopping" id="cart1"></i>
+      <p id="cart">cart</p>
     </div>
 </div>
-</Header>
-<body>
-    
+<div class="label ">
+  <i class="fa-solid fa-bars" id="label" ></i>
+  <p id="label"  class=" border">All</p>
+  <p id="label"  class=" border"> Today's Deals</p>
+  <p id="label"  class=" border"> Customer Service</p>
+  <p id="label" class=" border"> Registry</p>
+  <p id="label" class=" border">Gift Cards</p>
+  <p id="label" class=" border"> Sell</p>
+</div>
+ </header>
+ <main>
+  <div class="heroimage ">
+    <div id="note">
+      <div class="note">
+       <P>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a href="Click here to go to amazon.in">Click here to go to amazon.in</a> 
+       </P>
+      </div>
+    </div>
+  </div>
+  <!-- shop-section -->
+<div class="shop-section">
+  <div class="box1 box">
+    <p id="Recipients">Shop Gifts By Recipients</p>
+    <div id="box1">
+      <div id="firstrow">
+      <div class="firstrow">
+       <img src="forhim.jpg" height=115px width=125px>
+       <p >For him</p>
+      </div>
+      <div class="secondrow">
+        <img src="forher.jpg"height=115px width=125px>
+        <p>For her</p>
+     </div>
+    </div>
+    <div id="secondrow">
+     <div class="firstrow">
+      <img src="forkids.jpg" height=115px width=125px>
+      <p >For kids</p>
+     </div>
+     <div class="secondrow">
+       <img src="forteens.jpg"height=115px width=125px>
+       <p>For teens</p>
+    </div>
+   </div>
+   <div class="allgifts">
+    <a href="allgifts">Shop all gifts</a>
+    </div>
+    </div>
+     </div>
+     <!-- box2 -->
+
+     <div class="box1 box">
+      <p id="Recipients">Shop Gifts By Recipients</p>
+      <div id="box1">
+        <div id="firstrow">
+        <div class="firstrow">
+         <img src="forhim.jpg" height=115px width=125px>
+         <p >For him</p>
+        </div>
+        <div class="secondrow">
+          <img src="forher.jpg"height=115px width=125px>
+          <p>For her</p>
+       </div>
+      </div>
+      <div id="secondrow">
+       <div class="firstrow">
+        <img src="forkids.jpg" height=115px width=125px>
+        <p >For kids</p>
+       </div>
+       <div class="secondrow">
+         <img src="forteens.jpg"height=115px width=125px>
+         <p>For teens</p>
+      </div>
+     </div>
+     <div class="allgifts">
+      <a href="allgifts">Shop all gifts</a>
+      </div>
+      </div>
+       </div>
+       <!-- box3 -->
+
+       <div class="box1 box">
+        <p id="Recipients">Shop Gifts By Recipients</p>
+        <div id="box1">
+          <div id="firstrow">
+          <div class="firstrow">
+           <img src="forhim.jpg" height=115px width=125px>
+           <p >For him</p>
+          </div>
+          <div class="secondrow">
+            <img src="forher.jpg"height=115px width=125px>
+            <p>For her</p>
+         </div>
+        </div>
+        <div id="secondrow">
+         <div class="firstrow">
+          <img src="forkids.jpg" height=115px width=125px>
+          <p >For kids</p>
+         </div>
+         <div class="secondrow">
+           <img src="forteens.jpg"height=115px width=125px>
+           <p>For teens</p>
+        </div>
+       </div>
+       <div class="allgifts">
+        <a href="allgifts">Shop all gifts</a>
+        </div>
+        </div>
+         </div>
+
+         <!-- box4 -->
+         <div class="box1 box">
+          <p id="Recipients">Shop Gifts By Recipients</p>
+          <div id="box1">
+            <div id="firstrow">
+            <div class="firstrow">
+             <img src="forhim.jpg" height=115px width=125px>
+             <p >For him</p>
+            </div>
+            <div class="secondrow">
+              <img src="forher.jpg"height=115px width=125px>
+              <p>For her</p>
+           </div>
+          </div>
+          <div id="secondrow">
+           <div class="firstrow">
+            <img src="forkids.jpg" height=115px width=125px>
+            <p >For kids</p>
+           </div>
+           <div class="secondrow">
+             <img src="forteens.jpg"height=115px width=125px>
+             <p>For teens</p>
+          </div>
+         </div>
+         <div class="allgifts">
+          <a href="allgifts">Shop all gifts</a>
+          </div>
+          </div>
+           </div>
+</div>
+ </main>
 </body>
 </html>
